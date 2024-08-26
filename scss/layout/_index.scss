@@ -1,0 +1,78 @@
+
+// inicio del main primera section
+
+.div-titulo{ 
+  display: flex;
+  justify-content: center;
+}
+
+
+//segunda section main
+
+.precios-servicios{
+  text-align: end;
+  letter-spacing: normal;
+  font-size: medium;
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4fr;
+}
+
+.img-carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 1fr;
+  margin-right: 1fr;
+}
+
+
+
+//tercera sesion main index
+
+.div-index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: $third-color;
+  font-size: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 
+}
+
+.frase-1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 1 solid $third-color;
+  color: $third-color;
+  font-size: 50px;}
+  
+
+  //ultima sesion del main
+
+
+  .gana-10{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $third-color;
+    line-height: 20px;
+    margin: 50px;
+    margin: 0;
+    padding: 0%;
+  }
+
+

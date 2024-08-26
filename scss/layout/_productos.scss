@@ -1,0 +1,62 @@
+
+
+
+//inicio del main 
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid black;}
+
+
+
+.div-titulo{
+    color: white;
+    background-color: palevioletred;
+}
+
+//h2 main de productos 
+.exclusivo{
+    text-align: center;
+}
+
+//tarjeta de productos 
+
+.serumcejas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 1rem;
+    padding: 0rem 2rem 0rem 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+  background: $secundary-color;
+  color: rgb(172, 9, 63);
+  text-align: center; 
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+  
+}
+
+//Boton de compra en productos
+
+.btn-compra {
+    background-color: white;
+    border-radius: 30%;
+    margin: 5px;
+    padding: 5px;
+    color: $third-color;
+    cursor: pointer; 
+  }
+  
+  //parrafo de productos 
+
+  .h2-productos{
+   color: black;  }
+   
+
+
+
+ 
+ 

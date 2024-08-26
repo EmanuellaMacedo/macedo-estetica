@@ -1,0 +1,19 @@
+// Definir un mixin base
+@mixin base-button($color) {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: $color;
+  background-color: darken($color, 10%);
+}
+
+// Definir un mixin que usa el mixin base
+@mixin primary-button {
+  @include base-button(#007bff);
+}
+
+// Usar el mixin
+.button-primary {
+  @include primary-button;
+}
+
