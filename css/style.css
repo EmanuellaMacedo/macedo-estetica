@@ -12,6 +12,10 @@ a:link {
   color: rgb(172, 9, 63);
 }
 
+a:visited {
+  color: rgb(241, 113, 132);
+}
+
 .menu-container {
   display: flex;
   justify-content: center;
