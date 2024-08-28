@@ -4,6 +4,7 @@
 //inicio del main 
 .menu-container{
     display: flex;
+    text-align: center;
     justify-content: center;
     gap: 10px;
     border: 1px solid black;}
@@ -12,6 +13,7 @@
 
 .div-titulo{
     color: white;
+    text-align: center;
     background-color: palevioletred;
 }
 
@@ -28,6 +30,7 @@
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 1rem;
+    text-align: center;
     padding: 0rem 2rem 0rem 2rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: medium;
@@ -57,7 +60,10 @@
    color:palevioletred; }
    
 
-
+.imagen-producto{
+    width: 100%;
+    align-items: center;
+}
 
  
  

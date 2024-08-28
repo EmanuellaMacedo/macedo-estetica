@@ -27,6 +27,7 @@ a:visited {
 
 .div-titulo {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -78,6 +79,7 @@ footer .cont-red .cont-c img {
 
 .menu-container {
   display: flex;
+  text-align: center;
   justify-content: center;
   gap: 10px;
   border: 1px solid black;
@@ -85,6 +87,7 @@ footer .cont-red .cont-c img {
 
 .div-titulo {
   color: white;
+  text-align: center;
   background-color: palevioletred;
 }
 
@@ -98,6 +101,7 @@ footer .cont-red .cont-c img {
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   gap: 1rem;
+  text-align: center;
   padding: 0rem 2rem 0rem 2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: medium;
@@ -119,6 +123,11 @@ footer .cont-red .cont-c img {
 
 .h2-productos {
   color: palevioletred;
+}
+
+.imagen-producto {
+  width: 100%;
+  align-items: center;
 }
 
 .div-titulo {
@@ -245,28 +254,28 @@ img {
 /* Estilo para dispositivos grandes (escritorio) */
 @media (min-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .serumcejas {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /* Estilo para tabletas */
 @media (min-width: 768px) and (max-width: 1023px) {
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .serumcejas {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /* Estilo para dispositivos móviles */
 @media (max-width: 767px) {
   .gallery {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
   .serumcejas {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 * {
