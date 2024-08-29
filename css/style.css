@@ -77,6 +77,15 @@ footer .cont-red .cont-c img {
   color: rgb(172, 9, 63);
 }
 
+.contenedor-c {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: palevioletred;
+}
+
 .menu-container {
   display: flex;
   text-align: center;
@@ -98,7 +107,7 @@ footer .cont-red .cont-c img {
 
 .serumcejas {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 1rem;
   text-align: center;
@@ -109,7 +118,6 @@ footer .cont-red .cont-c img {
   align-items: center;
   color: palevioletred;
   margin: 10px;
-  width: 100%;
 }
 
 .btn-compra {
@@ -254,19 +262,19 @@ img {
 /* Estilo para dispositivos grandes (escritorio) */
 @media (min-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .serumcejas {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 /* Estilo para tabletas */
 @media (min-width: 768px) and (max-width: 1023px) {
   .gallery {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .serumcejas {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 /* Estilo para dispositivos móviles */
