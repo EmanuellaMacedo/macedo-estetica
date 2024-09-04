@@ -4,3 +4,27 @@
 a:link{
     color: $third-color;
 }
+
+.button {
+        display: inline-block;
+        background-color: rgb(254, 208, 231); 
+        padding: 10px 20px; 
+        border-radius: 50px; 
+        text-align: center; 
+        text-decoration: none; 
+        font-size: 15px; 
+        cursor: pointer; 
+        position: fixed;
+        right: 20px;  
+        bottom: 20px; 
+        
+    
+        transition: background-color 0.3s ease; 
+    }
+    
+    /* Estilo cuando el botón se pasa por encima */
+    .button:hover {
+        background-color: $primary-color; 
+    }
+    
+
