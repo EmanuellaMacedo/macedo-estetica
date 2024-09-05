@@ -73,15 +73,18 @@
 
   .gana-10{
     display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    justify-content: center;
     align-items: center;
     text-align: center;
     color: $third-color;
-    line-height: 20px;
+    line-height: 50px;
     margin: 50px;
-    margin: 0;
-    padding: 0%;
+    margin: 1rem;
+    padding: 10px 20px; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 10px;
+   
+   
     
   }
 
